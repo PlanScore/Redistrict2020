@@ -25,6 +25,22 @@
             <dt>Dave’s Redistricting App View</dt>
             <dd><a href="{{ page.davesredist_link }}">{{ page.davesredist_link }}</a></dd>
         {% endif %}
+        {% if page.allabout_link %}
+            <dt>All About Redistricting Link</dt>
+            <dd><a href="{{ page.allabout_link }}">{{ page.allabout_link }}</a></dd>
+        {% endif %}
+        {% for file in site.static_files %}
+            {% if file.path == page.shapefile_file %}
+                <dt>Shapefile</dt>
+                <dd><a href="{{ file.path }}">{{ file.name }}</a></dd>
+            {% endif %}
+        {% endfor %}
+        {% for file in site.static_files %}
+            {% if file.path == page.blockassignment_file %}
+                <dt>Block Assignment File</dt>
+                <dd><a href="{{ file.path }}">{{ file.name }}</a></dd>
+            {% endif %}
+        {% endfor %}
     </dl>
     <hr>
     {{ content }}
