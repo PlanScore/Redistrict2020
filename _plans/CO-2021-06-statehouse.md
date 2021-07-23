@@ -1,6 +1,7 @@
 ---
 state: Colorado
 title: CO Proposed State House
+body: Senate
 date: 2021-06-29
 authoritative_link: https://redistricting.colorado.gov/content/prelim-legislative-maps
 planscore_link: https://planscore.org/plan.html?20210629T163817.159011755Z

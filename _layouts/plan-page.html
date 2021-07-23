@@ -44,7 +44,7 @@
 
 
                 /*
-                // On map layer hover: highlight associated table rows 
+                // On map layer hover: highlight associated table rows
                 function on_geojson_mouse_event(evtdata) {
                     const should_apply_highlight = evtdata.type === 'mouseover';
                     const index = data.features.indexOf(evtdata.layer.feature);
@@ -72,7 +72,7 @@
                 console.log('GeoJSON bounds:', geojson.getBounds());
 
                 //
-                /* 
+                /*
                 var show_leans = (typeof plan.districts[0].totals['Democratic Wins'] === 'number');
                 add_map_pattern_support(show_leans);
                 */
@@ -105,7 +105,7 @@
                     pane: 'labels',
                     maxZoom: 18
                 }).addTo(map);
-        
+
                 map.addControl(L.control.zoom({'position': 'topright'}));
                 map.addControl(new L.Control.PartyLegend({'position': 'topleft'}));
             }
@@ -135,6 +135,8 @@
     <dl>
         <dt>State</dt>
         <dd>{{ page.state }}</dd>
+        <dt>Legislative Body</dt>
+        <dd>{{ page.body }}</dd>
         <dt>Date</dt>
         <dd>{{ page.date | date_to_string }}</dd>
         <dt>Authoritative Link</dt>

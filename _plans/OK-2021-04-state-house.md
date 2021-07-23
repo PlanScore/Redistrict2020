@@ -1,6 +1,7 @@
 ---
 state: Oklahoma
 title: OK Enacted State House
+body: State House
 date: 2021-05-13
 authoritative_link: https://www.okhouse.gov/Publications/PropDistMaps.aspx
 planscore_link: https://planscore.org/plan.html?20210421T190932.018394874Z

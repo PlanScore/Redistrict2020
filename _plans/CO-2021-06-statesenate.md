@@ -1,6 +1,7 @@
 ---
 state: Colorado
 title: CO Proposed State Senate
+body: State Senate
 date: 2021-06-29
 authoritative_link: https://redistricting.colorado.gov/content/prelim-legislative-maps
 planscore_link: https://planscore.org/plan.html?20210629T163819.186585696Z

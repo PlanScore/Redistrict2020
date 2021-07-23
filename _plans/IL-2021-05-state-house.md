@@ -1,6 +1,7 @@
 ---
 state: Illinois
 title: IL Proposed State House
+body: State House
 date: 2021-05-23
 authoritative_link: https://ilhousedems.com/redistricting/
 planscore_link: https://planscore.org/plan.html?20210524T031102.511166780Z
