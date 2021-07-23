@@ -23,5 +23,5 @@ State Senate
 {% endfor %}
 
 {% if state.plans is Null %}
-- print("None Available at this Time")
+- "None Available at this Time"
 {% endif %}
