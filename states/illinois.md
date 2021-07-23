@@ -23,5 +23,4 @@ State Senate
 {% endfor %}
 
 {% if state_plans is None %}
-No Plans Available at this Time
 {% endif %}
