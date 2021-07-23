@@ -23,5 +23,4 @@ State Senate
 {% endfor %}
 
 {% if state.plans is None %}
-- "None Available at this Time"
 {% endif %}
