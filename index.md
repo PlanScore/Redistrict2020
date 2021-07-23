@@ -12,7 +12,7 @@ States
 {% endif %}
 {% endfor %}
 
-Plans
+Recent Plans
 ---
 
 {% assign recent_plans = site.plans | sort: "date" | reverse %}

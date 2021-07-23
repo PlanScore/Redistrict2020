@@ -13,3 +13,15 @@ State House
 {% for plan in state_plans %}
 - [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
 {% endfor %}
+
+State Senate
+---
+{% assign state_plans = site.plans | where: "state", "Colorado" | where: "body", "State Senate" | sort: "date" | reverse %}
+
+{% for plan in state_plans %}
+- [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
+{% endfor %}
+
+{% if state.plans is Null %}
+- print("None Available at this Time")
+{% endif %}
