@@ -4,10 +4,10 @@ layout: basic-page
 ---
 
 Plans
----
+----
 
 US House
-----
+---
 {% assign state_plans = site.plans | where: "state", "Colorado" | where: "body", "US House" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}
@@ -15,7 +15,7 @@ US House
 {% endfor %}
 
 State House
-----
+---
 {% assign state_plans = site.plans | where: "state", "Colorado" | where: "body", "State House" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}
@@ -23,7 +23,7 @@ State House
 {% endfor %}
 
 State Senate
-----
+---
 {% assign state_plans = site.plans | where: "state", "Colorado" | where: "body", "State Senate" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}

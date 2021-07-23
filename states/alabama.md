@@ -4,7 +4,7 @@ layout: basic-page
 ---
 
 Plans
----
+----
 
 {% assign state_plans = site.plans | where: "state", "Alabama" | sort: "date" | reverse | sort: "body" %}
 
