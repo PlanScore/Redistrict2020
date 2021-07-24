@@ -22,6 +22,8 @@ State Senate
 - [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
 {% endfor %}
 
+{{state_plans.length}}
+
 {% if state_plans.length == 0 %}
- No plans are available at this time
+No plans are available at this time
 {% endif %}
