@@ -16,8 +16,10 @@ State House
 
 State Senate
 ---
-{% assign state_plans = site.plans | where: "state", "Colorado" | where: "body", "State Senate" | sort: "date" | reverse %}
+{% assign state_plans = site.plans | where: "state", "Illinois" | where: "body", "State Senate" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}
 - [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
 {% endfor %}
+
+No Plans Available at this Time
