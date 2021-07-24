@@ -21,6 +21,3 @@ State Senate
 {% for plan in state_plans %}
 - [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
 {% endfor %}
-
-{% if state_plans is None %}
-{% endif %}
