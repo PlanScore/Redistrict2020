@@ -3,10 +3,10 @@ title: Illinois
 layout: basic-page
 ---
 
-Plans
+## Plans
 ----
 
-State House
+### State House
 ---
 {% assign state_plans = site.plans | where: "state", "Illinois" | where: "body", "State House" | sort: "date" | reverse %}
 
@@ -14,7 +14,7 @@ State House
 - [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
 {% endfor %}
 
-State Senate
+### State Senate
 ---
 {% assign state_plans = site.plans | where: "state", "Illinois" | where: "body", "State Senate" | sort: "date" | reverse %}
 
