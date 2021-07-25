@@ -4,7 +4,6 @@ layout: basic-page
 ---
 
 Plans
-<p>
 ---
 State House
 ---
