@@ -6,17 +6,25 @@ layout: basic-page
 Plans
 ---
 
+US House
+---
+{% assign state_plans = site.plans | where: "state", "Illinois" | where: "body", "US House" | sort: "date" | reverse %}
+
+{% for plan in state_plans %}
+- [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
+{% else %}
+No plans are available at this time
+{% endfor %}
+
 State Senate
 ---
 {% assign state_plans = site.plans | where: "state", "Illinois" | where: "body", "State Senate" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}
 - [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
-{% endfor %}
-
-{% if state_plans.length == null %}
+{% else %}
 No plans are available at this time
-{% endif %}
+{% endfor %}
 
 
 State House
