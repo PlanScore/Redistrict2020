@@ -3,7 +3,7 @@ title: Illinois
 layout: basic-page
 ---
 
-Plans
+<u>Available Redistricting Plans</u>
 ---
 
 <br>
@@ -14,7 +14,7 @@ US House
 {% for plan in state_plans %}
 - [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
 {% else %}
-No plans are available at this time
+None at this time
 {% endfor %}
 
 State Senate
@@ -35,5 +35,5 @@ State House
 {% for plan in state_plans %}
 - [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
 {% else %}
-No plans are available at this time
+None at this time
 {% endfor %}
