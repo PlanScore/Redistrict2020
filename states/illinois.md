@@ -6,6 +6,7 @@ layout: basic-page
 Plans
 ---
 
+<br>
 US House
 ---
 {% assign state_plans = site.plans | where: "state", "Illinois" | where: "body", "US House" | sort: "date" | reverse %}
