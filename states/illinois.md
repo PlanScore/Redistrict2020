@@ -3,6 +3,7 @@ title: Illinois
 layout: basic-page
 ---
 
+{% include navigation.html %}
 <br>
 
 <u>Available Redistricting Plans</u>

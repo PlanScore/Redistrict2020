@@ -3,6 +3,8 @@ title: Home
 layout: basic-page
 ---
 
+{% include navigation.html %}
+
 States
 ---
 
