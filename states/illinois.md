@@ -3,7 +3,7 @@ title: Illinois
 layout: basic-page
 ---
 
-<u>Available Redistricting Plans</u><br>
+Available Redistricting Plans
 ---
 
 US House
