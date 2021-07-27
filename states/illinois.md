@@ -25,8 +25,6 @@ State House
 
 {% for plan in state_plans %}
 - [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
-{% endfor %}
-
-{% if state_plans.length == null %}
+{% else %}
 No plans are available at this time
-{% endif %}
+{% endfor %}
