@@ -10,16 +10,6 @@ layout: basic-page
 
 <br>
 
-US House
----
-{% assign state_plans = site.plans | where: "state", "Alaska" | where: "body", "US House" | sort: "date" | reverse %}
-
-{% for plan in state_plans %}
-- [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
-{% else %}
-None at this time
-{% endfor %}
-
 State Senate
 ---
 {% assign state_plans = site.plans | where: "state", "Alaska" | where: "body", "State Senate" | sort: "date" | reverse %}

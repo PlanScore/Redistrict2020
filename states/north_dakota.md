@@ -1,5 +1,5 @@
 ---
-title: Delaware
+title: North Dakota
 layout: basic-page
 ---
 
@@ -12,7 +12,7 @@ layout: basic-page
 
 State Senate
 ---
-{% assign state_plans = site.plans | where: "state", "Delaware" | where: "body", "State Senate" | sort: "date" | reverse %}
+{% assign state_plans = site.plans | where: "state", "North Dakota" | where: "body", "State Senate" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}
 - [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
@@ -23,7 +23,7 @@ None at this time
 
 State House
 ---
-{% assign state_plans = site.plans | where: "state", "Delaware" | where: "body", "State House" | sort: "date" | reverse %}
+{% assign state_plans = site.plans | where: "state", "North Dakota" | where: "body", "State House" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}
 - [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
