@@ -10,7 +10,7 @@ States
 {% if page.dir == '/states/' or page.is_state %}
 [{{ page.title }}]({{ page.url }})
 {% endif %}
-{% if page.title != 'Wyoming' %}
+{% if forloop.last == false %}
  |
 {% endif %}
 {% endfor %}
