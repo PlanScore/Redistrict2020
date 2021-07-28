@@ -6,6 +6,10 @@ layout: basic-page
 States
 ---
 
+[Alabama](https://www.redistrict2020.org/states/alabama.html) |
+[Alaska](https://www.redistrict2020.org/states/alaska.html)
+
+
 {% for page in site.pages %}
 {% if page.dir == '/states/' or page.is_state %}
 - [{{ page.title }}]({{ page.url }})
