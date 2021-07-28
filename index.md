@@ -13,7 +13,7 @@ States
 {% endfor %}
 
 {% for page in site.pages %}
-{{ forloop.index }}
+check
 {% endfor %}
 
 
