@@ -12,6 +12,11 @@ States
 {% endif %}
 {% endfor %}
 
+{% for page in site.pages %}
+{{ forloop.index }}
+{% endfor %}
+
+
 Recent Plans
 ---
 
