@@ -1,3 +1,4 @@
+---
 title: Arizona
 layout: basic-page
 ---

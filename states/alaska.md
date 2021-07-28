@@ -1,3 +1,4 @@
+---
 title: Alaska
 layout: basic-page
 ---
