@@ -7,7 +7,7 @@ States
 ---
 
 {% for page in site.pages %}
-{% if forloop.last == false and (page.dir == '/states/' or page.is_state) %}
+{% if page.dir == '/states/' or page.is_state and forloop.last == false %}
 [{{ page.title }}]({{ page.url }}) |
 {% elsif %}
 [{{ page.title }}]({{ page.url }})
