@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Maryland](https://redistricting.lls.edu/state/maryland/?cycle=2020&level=Congress&startdate=)
+- [538 -- Maryland](https://projects.fivethirtyeight.com/redistricting-2022-maps/maryland/)
+
 <u>Available Redistricting Plans</u>
 ---
 

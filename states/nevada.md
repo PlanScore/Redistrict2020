@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Nevada](https://redistricting.lls.edu/state/nevada/?cycle=2020&level=Congress&startdate=)
+- [538 -- Nevada](https://projects.fivethirtyeight.com/redistricting-2022-maps/nevada/)
+
 <u>Available Redistricting Plans</u>
 ---
 

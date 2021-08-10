@@ -5,6 +5,13 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Hawaii](https://redistricting.lls.edu/state/hawaii/?cycle=2020&level=Congress&startdate=)
+- [538 -- Hawaii](https://projects.fivethirtyeight.com/redistricting-2022-maps/hawaii/)
+
+
 <u>Available Redistricting Plans</u>
 ---
 

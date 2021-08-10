@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- New Mexico](https://redistricting.lls.edu/state/new-mexico/?cycle=2020&level=Congress&startdate=)
+- [538 -- New Mexico](https://projects.fivethirtyeight.com/redistricting-2022-maps/new-mexico/)
+
 <u>Available Redistricting Plans</u>
 ---
 

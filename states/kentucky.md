@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Kentucky](https://redistricting.lls.edu/state/kentucky/?cycle=2020&level=Congress&startdate=)
+- [538 -- Kentucky](https://projects.fivethirtyeight.com/redistricting-2022-maps/kentucky/)
+
 <u>Available Redistricting Plans</u>
 ---
 

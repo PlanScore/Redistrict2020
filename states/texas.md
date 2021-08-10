@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Texas](https://redistricting.lls.edu/state/texas/?cycle=2020&level=Congress&startdate=)
+- [538 -- Texas](https://projects.fivethirtyeight.com/redistricting-2022-maps/texas/)
+
 <u>Available Redistricting Plans</u>
 ---
 

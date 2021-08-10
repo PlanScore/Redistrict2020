@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Nebraska](https://redistricting.lls.edu/state/nebraska/?cycle=2020&level=Congress&startdate=)
+- [538 -- Nebraska](https://projects.fivethirtyeight.com/redistricting-2022-maps/nebraska/)
+
 <u>Available Redistricting Plans</u>
 ---
 

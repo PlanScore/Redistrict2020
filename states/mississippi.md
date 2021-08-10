@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Mississippi](https://redistricting.lls.edu/state/mississippi/?cycle=2020&level=Congress&startdate=)
+- [538 -- Mississippi](https://projects.fivethirtyeight.com/redistricting-2022-maps/mississippi/)
+
 <u>Available Redistricting Plans</u>
 ---
 

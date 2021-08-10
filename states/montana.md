@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Montana](https://redistricting.lls.edu/state/montana/?cycle=2020&level=Congress&startdate=)
+- [538 -- Montana](https://projects.fivethirtyeight.com/redistricting-2022-maps/montana/)
+
 <u>Available Redistricting Plans</u>
 ---
 

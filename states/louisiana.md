@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Louisiana](https://redistricting.lls.edu/state/louisiana/?cycle=2020&level=Congress&startdate=)
+- [538 -- Louisiana](https://projects.fivethirtyeight.com/redistricting-2022-maps/lousiana/)
+
 <u>Available Redistricting Plans</u>
 ---
 

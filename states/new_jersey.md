@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- New Jersey](https://redistricting.lls.edu/state/new-jersey/?cycle=2020&level=Congress&startdate=)
+- [538 -- New Jersey](https://projects.fivethirtyeight.com/redistricting-2022-maps/new-jersey/)
+
 <u>Available Redistricting Plans</u>
 ---
 

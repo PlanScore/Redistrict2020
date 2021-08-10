@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Washington](https://redistricting.lls.edu/state/washington/?cycle=2020&level=Congress&startdate=)
+- [538 -- Washington](https://projects.fivethirtyeight.com/redistricting-2022-maps/washington/)
+
 <u>Available Redistricting Plans</u>
 ---
 

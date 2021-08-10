@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- New Hampshire](https://redistricting.lls.edu/state/new-hampshire/?cycle=2020&level=Congress&startdate=)
+- [538 -- New Hampshire](https://projects.fivethirtyeight.com/redistricting-2022-maps/new-hampshire/)
+
 <u>Available Redistricting Plans</u>
 ---
 

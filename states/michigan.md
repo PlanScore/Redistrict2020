@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Michigan](https://redistricting.lls.edu/state/michigan/?cycle=2020&level=Congress&startdate=)
+- [538 -- Michigan](https://projects.fivethirtyeight.com/redistricting-2022-maps/michigan/)
+
 <u>Available Redistricting Plans</u>
 ---
 

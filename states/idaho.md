@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Idaho](https://redistricting.lls.edu/state/idaho/?cycle=2020&level=Congress&startdate=)
+- [538 -- Idaho](https://projects.fivethirtyeight.com/redistricting-2022-maps/idaho/)
+
 <u>Available Redistricting Plans</u>
 ---
 

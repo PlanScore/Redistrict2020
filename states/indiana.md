@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Indiana](https://redistricting.lls.edu/state/indiana/?cycle=2020&level=Congress&startdate=)
+- [538 -- Indiana](https://projects.fivethirtyeight.com/redistricting-2022-maps/indiana/)
+
 <u>Available Redistricting Plans</u>
 ---
 

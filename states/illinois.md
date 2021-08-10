@@ -5,6 +5,13 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Illinois](https://redistricting.lls.edu/state/illinois/?cycle=2020&level=Congress&startdate=)
+- [538 -- Illinois](https://projects.fivethirtyeight.com/redistricting-2022-maps/illinois/)
+
+
 <u>Available Redistricting Plans</u>
 ---
 

@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- California](https://redistricting.lls.edu/state/california/?cycle=2020&level=Congress&startdate=)
+- [538 -- California](https://projects.fivethirtyeight.com/redistricting-2022-maps/california/)
+
 <u>Available Redistricting Plans</u>
 ---
 

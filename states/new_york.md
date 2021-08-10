@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- New York](https://redistricting.lls.edu/state/new-york/?cycle=2020&level=Congress&startdate=)
+- [538 -- New York](https://projects.fivethirtyeight.com/redistricting-2022-maps/new-york/)
+
 <u>Available Redistricting Plans</u>
 ---
 

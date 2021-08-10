@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Massachusetts](https://redistricting.lls.edu/state/massachusetts/?cycle=2020&level=Congress&startdate=)
+- [538 -- Massachusetts](https://projects.fivethirtyeight.com/redistricting-2022-maps/massachusetts/)
+
 <u>Available Redistricting Plans</u>
 ---
 

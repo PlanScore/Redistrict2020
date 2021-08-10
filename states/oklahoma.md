@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Oklahoma](https://redistricting.lls.edu/state/oklahoma/?cycle=2020&level=Congress&startdate=)
+- [538 -- Oklahoma](https://projects.fivethirtyeight.com/redistricting-2022-maps/oklahoma/)
+
 <u>Available Redistricting Plans</u>
 ---
 

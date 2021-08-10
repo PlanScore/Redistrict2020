@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Delaware](https://redistricting.lls.edu/state/delaware/?cycle=2020&level=Congress&startdate=)
+- [538 -- Delaware](https://projects.fivethirtyeight.com/redistricting-2022-maps/delaware/)
+
 <u>Available Redistricting Plans</u>
 ---
 

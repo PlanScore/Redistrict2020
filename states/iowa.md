@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Iowa](https://redistricting.lls.edu/state/iowa/?cycle=2020&level=Congress&startdate=)
+- [538 -- Iowa](https://projects.fivethirtyeight.com/redistricting-2022-maps/iowa/)
+
 <u>Available Redistricting Plans</u>
 ---
 

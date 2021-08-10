@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Connecticut](https://redistricting.lls.edu/state/connecticut/?cycle=2020&level=Congress&startdate=)
+- [538 -- Connecticut](https://projects.fivethirtyeight.com/redistricting-2022-maps/connecticut/)
+
 <u>Available Redistricting Plans</u>
 ---
 

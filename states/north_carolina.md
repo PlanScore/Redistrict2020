@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- North Carolina](https://redistricting.lls.edu/state/north-carolina/?cycle=2020&level=Congress&startdate=)
+- [538 -- North Carolina](https://projects.fivethirtyeight.com/redistricting-2022-maps/north-carolina/)
+
 <u>Available Redistricting Plans</u>
 ---
 

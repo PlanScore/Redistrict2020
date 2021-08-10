@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Alaska](https://redistricting.lls.edu/state/alaska/?cycle=2020&level=Congress&startdate=)
+- [538 -- Alaska](https://projects.fivethirtyeight.com/redistricting-2022-maps/alaska/)
+
 <u>Available Redistricting Plans</u>
 ---
 

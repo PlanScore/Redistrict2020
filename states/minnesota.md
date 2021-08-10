@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Minnesota](https://redistricting.lls.edu/state/minnesota/?cycle=2020&level=Congress&startdate=)
+- [538 -- Minnesota](https://projects.fivethirtyeight.com/redistricting-2022-maps/minnesota/)
+
 <u>Available Redistricting Plans</u>
 ---
 

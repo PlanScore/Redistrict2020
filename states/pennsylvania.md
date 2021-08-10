@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Pennsylvania](https://redistricting.lls.edu/state/pennsylvania/?cycle=2020&level=Congress&startdate=)
+- [538 -- Pennsylvania](https://projects.fivethirtyeight.com/redistricting-2022-maps/pennsylvania/)
+
 <u>Available Redistricting Plans</u>
 ---
 

@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Arkansas](https://redistricting.lls.edu/state/arkansas/?cycle=2020&level=Congress&startdate=)
+- [538 -- Arkansas](https://projects.fivethirtyeight.com/redistricting-2022-maps/arkansas/)
+
 <u>Available Redistricting Plans</u>
 ---
 

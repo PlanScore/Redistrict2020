@@ -5,6 +5,13 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Arizona](https://redistricting.lls.edu/state/arizona/?cycle=2020&level=Congress&startdate=)
+- [538 -- Arizona](https://projects.fivethirtyeight.com/redistricting-2022-maps/arizona/)
+
+
 <u>Available Redistricting Plans</u>
 ---
 

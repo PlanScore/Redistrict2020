@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Kansas](https://redistricting.lls.edu/state/kansas/?cycle=2020&level=Congress&startdate=)
+- [538 -- Kansas](https://projects.fivethirtyeight.com/redistricting-2022-maps/kansas/)
+
 <u>Available Redistricting Plans</u>
 ---
 

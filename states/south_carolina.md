@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- South Carolina](https://redistricting.lls.edu/state/south-carolina/?cycle=2020&level=Congress&startdate=)
+- [538 -- South Carolina](https://projects.fivethirtyeight.com/redistricting-2022-maps/south-carolina/)
+
 <u>Available Redistricting Plans</u>
 ---
 

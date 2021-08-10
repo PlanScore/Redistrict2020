@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Missouri](https://redistricting.lls.edu/state/missouri/?cycle=2020&level=Congress&startdate=)
+- [538 -- Missouri](https://projects.fivethirtyeight.com/redistricting-2022-maps/missouri/)
+
 <u>Available Redistricting Plans</u>
 ---
 

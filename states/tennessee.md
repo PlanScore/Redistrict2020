@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Tennessee](https://redistricting.lls.edu/state/tennessee/?cycle=2020&level=Congress&startdate=)
+- [538 -- Tennessee](https://projects.fivethirtyeight.com/redistricting-2022-maps/tennessee/)
+
 <u>Available Redistricting Plans</u>
 ---
 

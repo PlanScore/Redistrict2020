@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Utah](https://redistricting.lls.edu/state/utah/?cycle=2020&level=Congress&startdate=)
+- [538 -- Utah](https://projects.fivethirtyeight.com/redistricting-2022-maps/utah/)
+
 <u>Available Redistricting Plans</u>
 ---
 

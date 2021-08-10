@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- South Dakota](https://redistricting.lls.edu/state/south-dakota/?cycle=2020&level=Congress&startdate=)
+- [538 -- South Dakota](https://projects.fivethirtyeight.com/redistricting-2022-maps/south-dakota/)
+
 <u>Available Redistricting Plans</u>
 ---
 

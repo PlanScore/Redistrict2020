@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Wisconsin](https://redistricting.lls.edu/state/wisconsin/?cycle=2020&level=Congress&startdate=)
+- [538 -- Wisconsin](https://projects.fivethirtyeight.com/redistricting-2022-maps/wisconsin/)
+
 <u>Available Redistricting Plans</u>
 ---
 

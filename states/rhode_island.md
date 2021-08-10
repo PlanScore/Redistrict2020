@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- Rhode Island](https://redistricting.lls.edu/state/rhode-island/?cycle=2020&level=Congress&startdate=)
+- [538 -- Rhode Island](https://projects.fivethirtyeight.com/redistricting-2022-maps/rhode-island/)
+
 <u>Available Redistricting Plans</u>
 ---
 

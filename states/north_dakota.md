@@ -5,6 +5,12 @@ layout: basic-page
 
 <br>
 
+<u>Useful State Links</u>
+---
+
+- [All About Redistricting -- North Dakota](https://redistricting.lls.edu/state/north-dakota/?cycle=2020&level=Congress&startdate=)
+- [538 -- North Dakota](https://projects.fivethirtyeight.com/redistricting-2022-maps/north-dakota/)
+
 <u>Available Redistricting Plans</u>
 ---
 
