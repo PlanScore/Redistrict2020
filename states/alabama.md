@@ -5,10 +5,14 @@ layout: basic-page
 
 <br>
 
-<u>Available Redistricting Plans</u>
+<u>Useful State Links</u>
 ---
 
-<br>
+- [All About Redistricting -- Alabama](https://redistricting.lls.edu/state/alabama/?cycle=2020&level=Congress&startdate=)
+- [538 -- Alabama](https://projects.fivethirtyeight.com/redistricting-2022-maps/alabama/)
+
+<u>Available Redistricting Plans</u>
+---
 
 US House
 ---
