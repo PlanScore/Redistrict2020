@@ -56,7 +56,6 @@ States
 [Wisconsin](https://www.redistrict2020.org/states/wisconsin.html) |
 [Wyoming](https://www.redistrict2020.org/states/wyoming.html)
 
-
 Recently Added Plans
 ---
 
