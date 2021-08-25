@@ -1,16 +1,14 @@
 ---
 state: Illinois
-title: IL Proposed State House
-body: State House
+title: IL Proposed State Senate 6-23-21
+body: State Senate
 date: 2021-05-23
-authoritative_link: https://ilhousedems.com/redistricting/
-planscore_link: https://planscore.org/plan.html?20210524T031102.511166780Z
-predecessor_link: https://planscore.org/illinois/#!2012-plan-statehouse-eg
-districtbuilder_link: https://app.districtbuilder.org/projects/8fed5844-8816-46aa-b940-7f330afc44a6
-davesredist_link: https://davesredistricting.org/maps#viewmap::e7a71819-ca68-437b-b65f-0b9cd8c43e76
-allabout_link: https://redistricting.lls.edu/state/illinois/?cycle=2020&level=State%20Lower&startdate=2021-06-04
-blockassignment_file: /files/IL-2021-05-state-house/block-assignments.csv.zip
-simplegeojson_file: /files/IL-2021-05-state-house/preview.geojson
+authoritative_link: https://www.ilsenateredistricting.com/
+planscore_link: https://planscore.campaignlegal.org/plan.html?20210825T215444.573136508Z
+districtbuilder_link: https://app.districtbuilder.org/projects/925ac001-371a-440f-bce4-5f6d111f088e
+davesredist_link: https://davesredistricting.org/maps#viewmap::79c6cb02-9f92-45c1-a025-7ec2589a8824
+allabout_link: https://redistricting.lls.edu/state/illinois/?cycle=2020&level=State%20Upper&startdate=2021-06-04
+blockassignment_file: /files/IL-2021-05-state-senate/0523.zip.zip
 
 layout: plan-page
 ---
