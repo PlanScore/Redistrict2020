@@ -141,17 +141,15 @@
         <dd>{{ page.date | date_to_string }}</dd>
         <dt>Authoritative Link</dt>
         <dd><a href="{{ page.authoritative_link }}">{{ page.authoritative_link }}</a></dd>
-        <dt>PlanScore Predictive Model</dt>
-        <dd><a href="{{ page.planscore_link }}">{{ page.planscore_link }}</a></dd>
-        <dt>Preceding Enacted Plan</dt>
-        <dd><a href="{{ page.predecessor_link }}">{{ page.predecessor_link }}</a></dd>
-        {% if page.davesredist_link %}
-            <dt>Dave’s Redistricting App View</dt>
-            <dd><a href="{{ page.davesredist_link }}">{{ page.davesredist_link }}</a></dd>
-        {% endif %}
         {% if page.allabout_link %}
             <dt>All About Redistricting Link</dt>
             <dd><a href="{{ page.allabout_link }}">{{ page.allabout_link }}</a></dd>
+        {% endif %}
+        <dt>PlanScore Predictive Model</dt>
+        <dd><a href="{{ page.planscore_link }}">{{ page.planscore_link }}</a></dd>
+        {% if page.davesredist_link %}
+            <dt>Dave’s Redistricting App View</dt>
+            <dd><a href="{{ page.davesredist_link }}">{{ page.davesredist_link }}</a></dd>
         {% endif %}
         {% for file in site.static_files %}
             {% if file.path == page.shapefile_file %}
