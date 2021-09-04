@@ -155,6 +155,10 @@
             <dt>Dave’s Redistricting App View</dt>
             <dd><a href="{{ page.davesredist_link }}">{{ page.davesredist_link }}</a></dd>
         {% endif %}
+        {% if page.five38_link %}
+            <dt>FiveThirtyEight Summary</dt>
+            <dd><a href="{{ page.five38_link }}">{{ page.five38_link }}</a></dd>
+        {% endif %}
         {% for file in site.static_files %}
             {% if file.path == page.shapefile_file %}
                 <dt>Shapefile</dt>
