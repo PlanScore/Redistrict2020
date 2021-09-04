@@ -7,6 +7,7 @@ authoritative_link: https://olis.oregonlegislature.gov/liz/2021I1/Committees/HRE
 planscore_link: https://planscore.campaignlegal.org/plan.html?20210903T163940.548313546Z
 blockassignment_file: /files/OR-2021-09/House_-_Plan_A_Public.zip
 shapefile_file: /files/OR-2021-09/House_-_Plan_A_Public.zip
+districtbuilder_link: https://app.districtbuilder.org/projects/79c97cc1-ca44-4ff8-9f94-4f7bb7b723df
 simplegeojson_file: /files/OR-2021-09/House_-_Plan_A_Public.geojson
 
 layout: plan-page
