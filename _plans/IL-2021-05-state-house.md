@@ -14,5 +14,3 @@ simplegeojson_file: /files/IL-2021-05-state-house/preview.geojson
 
 layout: plan-page
 ---
-
-{{ page.title }}

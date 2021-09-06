@@ -14,5 +14,3 @@ simplegeojson_file: /files/OR-2021-09/Congress_-_Plan_B_Public.geojson
 
 layout: plan-page
 ---
-
-{{ page.title }}

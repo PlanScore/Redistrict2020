@@ -12,5 +12,3 @@ blockassignment_file: /files/IL-2021-05-state-senate/0523.zip.zip
 
 layout: plan-page
 ---
-
-{{ page.title }}

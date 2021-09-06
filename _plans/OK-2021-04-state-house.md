@@ -13,5 +13,3 @@ simplegeojson_file: /files/OK-2021-04-state-house/preview.geojson
 
 layout: plan-page
 ---
-
-{{ page.title }}

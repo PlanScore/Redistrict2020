@@ -14,5 +14,3 @@ simplegeojson_file: /files/CO-2021-06-ushouse/preview.geojson
 
 layout: plan-page
 ---
-
-{{ page.title }}

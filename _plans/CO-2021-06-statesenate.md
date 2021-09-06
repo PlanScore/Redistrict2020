@@ -13,5 +13,3 @@ simplegeojson_file: /files/CO-2021-06-statesenate/preview.geojson
 
 layout: plan-page
 ---
-
-{{ page.title }}
