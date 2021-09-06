@@ -63,5 +63,5 @@ Recently Added Plans
 {% assign recent_plans = site.plans | sort: "date" | reverse %}
 
 {% for plan in recent_plans limit: 20 %}
-- [{{ plan.title }}]({{ plan.url }}), {{ plan.state }}, {{ plan.date | date_to_string }}
+- [{{ plan.state }} {{ plan.body }}: *{{ plan.title }}*]({{ plan.url }}), {{ plan.date | date: "%B" }} {{ plan.date | date: "%d" | plus:'0' }},  {{ plan.date | date: "%Y" }}
 {% endfor %}

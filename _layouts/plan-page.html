@@ -138,7 +138,11 @@
         <dt>Legislative Body</dt>
         <dd>{{ page.body }}</dd>
         <dt>Date</dt>
-        <dd>{{ page.date | date_to_string }}</dd>
+        <dd>
+            {{ page.date | date: "%B" }}
+            {{ page.date | date: "%d" | plus:'0' }}, 
+            {{ page.date | date: "%Y" }}
+        </dd>
         <dt>Authoritative Link</dt>
         <dd><a href="{{ page.authoritative_link }}">{{ page.authoritative_link }}</a></dd>
         {% if page.allabout_link %}
