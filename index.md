@@ -34,19 +34,19 @@ States
 [Montana](states/montana.html) |
 [Nebraska](states/nebraska.html) |
 [Nevada](states/nevada.html) |
-[New Hampshire](states/new_hampshire.html) |
-[New Jersey](states/new_jersey.html) |
-[New Mexico](states/new_mexico.html) |
-[New York](states/new_york.html) |
-[North Carolina](states/north_carolina.html) |
-[North Dakota](states/north_dakota.html) |
+[New&nbsp;Hampshire](states/new-hampshire.html) |
+[New&nbsp;Jersey](states/new-jersey.html) |
+[New&nbsp;Mexico](states/new-mexico.html) |
+[New&nbsp;York](states/new-york.html) |
+[North&nbsp;Carolina](states/north-carolina.html) |
+[North&nbsp;Dakota](states/north-dakota.html) |
 [Ohio](states/ohio.html) |
 [Oklahoma](states/oklahoma.html) |
 [Oregon](states/oregon.html) |
 [Pennsylvania](states/pennsylvania.html) |
-[Rhode Island](states/rhode_island.html) |
-[South Carolina](states/south_carolina.html) |
-[South Dakota](states/south_dakota.html) |
+[Rhode&nbsp;Island](states/rhode-island.html) |
+[South&nbsp;Carolina](states/south-carolina.html) |
+[South&nbsp;Dakota](states/south-dakota.html) |
 [Tennessee](states/tennessee.html) |
 [Texas](states/texas.html) |
 [Utah](states/utah.html) |
