@@ -5,19 +5,19 @@ layout: basic-page
 
 <br>
 
-<u>Useful State Links</u>
+Useful State Links
 ---
 
 - [All About Redistricting -- Texas](https://redistricting.lls.edu/state/texas/?cycle=2020&level=Congress&startdate=)
 - [538 -- Texas](https://projects.fivethirtyeight.com/redistricting-2022-maps/texas/)
 
-<u>Available Redistricting Plans</u>
+Available Redistricting Plans
 ---
 
 <br>
 
-US House
----
+### US House
+
 {% assign state_plans = site.plans | where: "state", "Texas" | where: "body", "US House" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}
@@ -26,8 +26,8 @@ US House
 None at this time
 {% endfor %}
 
-State Senate
----
+### State Senate
+
 {% assign state_plans = site.plans | where: "state", "Texas" | where: "body", "State Senate" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}
@@ -37,8 +37,8 @@ None at this time
 {% endfor %}
 
 
-State House
----
+### State House
+
 {% assign state_plans = site.plans | where: "state", "Texas" | where: "body", "State House" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}

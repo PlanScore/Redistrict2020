@@ -5,19 +5,19 @@ layout: basic-page
 
 <br>
 
-<u>Useful State Links</u>
+Useful State Links
 ---
 
 - [All About Redistricting -- Alaska](https://redistricting.lls.edu/state/alaska/?cycle=2020&level=Congress&startdate=)
 - [538 -- Alaska](https://projects.fivethirtyeight.com/redistricting-2022-maps/alaska/)
 
-<u>Available Redistricting Plans</u>
+Available Redistricting Plans
 ---
 
 <br>
 
-State Senate
----
+### State Senate
+
 {% assign state_plans = site.plans | where: "state", "Alaska" | where: "body", "State Senate" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}
@@ -27,8 +27,8 @@ None at this time
 {% endfor %}
 
 
-State House
----
+### State House
+
 {% assign state_plans = site.plans | where: "state", "Alaska" | where: "body", "State House" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}
