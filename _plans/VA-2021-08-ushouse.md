@@ -14,5 +14,3 @@ simplegeojson_file:
 
 layout: plan-page
 ---
-
-{{ page.title }}
