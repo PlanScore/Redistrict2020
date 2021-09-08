@@ -10,7 +10,7 @@ districtbuilder_link: https://app.districtbuilder.org/projects/bf8b5984-0fd0-41a
 five38_link:
 blockassignment_file: /files/VA-2021-08/Virginia_Congressional_08-31-21_doj.zip
 shapefile_file:
-simplegeojson_file:
+simplegeojson_file: /files/VA-2021-08/Virginia_Congressional_08-31-21_doj.geojson
 
 layout: plan-page
 ---

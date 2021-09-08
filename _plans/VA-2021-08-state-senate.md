@@ -10,7 +10,7 @@ districtbuilder_link: https://app.districtbuilder.org/projects/3e73132c-8c49-4f1
 blockassignment_file: /files/VA-2021-08/Virginia_State_Senate_08-31-21.zip
 five38_link:
 shapefile_file:
-simplegeojson_file:
+simplegeojson_file: /files/VA-2021-08/Virginia_State_Senate_08-31-21.geojson
 
 layout: plan-page
 ---
