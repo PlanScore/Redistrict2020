@@ -1,5 +1,5 @@
 ---
-state: virginia
+state: Virginia
 title: "Virginia Senate"
 body: State Senate
 date: 2021-08-31

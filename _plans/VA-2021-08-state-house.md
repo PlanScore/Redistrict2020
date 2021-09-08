@@ -1,5 +1,5 @@
 ---
-state: virginia
+state: Virginia
 title: "Virginia House"
 body: State House
 date: 2021-08-31
