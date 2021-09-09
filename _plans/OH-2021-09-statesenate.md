@@ -10,7 +10,7 @@ districtbuilder_link: https://app.districtbuilder.org/projects/accbaabe-681a-4fe
 five38_link:
 blockassignment_file: /files/OH-2021-09/Ray_DiRossi_Senate.zip
 shapefile_file:
-simplegeojson_file:
+simplegeojson_file: /files/OH-2021-09/Ray_DiRossi_Senate.geojson
 
 layout: plan-page
 ---
