@@ -3,7 +3,7 @@ state: Ohio
 title: Ohio Ray DiRossi State Senate
 body: State Senate
 date: 2021-09-09
-authoritative_link:
+authoritative_link: https://www.redistricting.ohio.gov/public-input
 planscore_link: https://planscore.campaignlegal.org/plan.html?20210909T154139.506394232Z
 davesredist_link: https://davesredistricting.org/maps#viewmap::861381ea-cc5a-49ae-87a2-337f503a5b34
 districtbuilder_link: https://app.districtbuilder.org/projects/accbaabe-681a-4fe3-866f-dc49991307a8

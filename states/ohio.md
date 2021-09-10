@@ -7,7 +7,7 @@ layout: basic-page
 
 Useful State Links
 ---
-
+- [Ohio Redistricting Commission](https://www.redistricting.ohio.gov/)
 - [All About Redistricting -- Ohio](https://redistricting.lls.edu/state/ohio/?cycle=2020&level=Congress&startdate=)
 - [538 -- Ohio](https://projects.fivethirtyeight.com/redistricting-2022-maps/ohio/)
 
