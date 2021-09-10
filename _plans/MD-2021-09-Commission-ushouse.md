@@ -1,5 +1,5 @@
 ---
-state: maryland
+state: Maryland
 title: "Maryland Redistricting Commission - Draft Congressional 09-09-21"
 body: US House
 date: 2021-09-09
