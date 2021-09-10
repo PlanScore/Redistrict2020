@@ -9,7 +9,6 @@ districtbuilder_link: https://app.districtbuilder.org/projects/7ff3c91c-5329-4f1
 davesredist_link: https://davesredistricting.org/join/c9c50369-e12e-480f-96b3-70af010bb84e
 blockassignment_file: /files/OR-2021-09/Congress_-_Plan_A_Public.zip
 shapefile_file: /files/OR-2021-09/Congress_-_Plan_A_Public.zip
-districtbuilder_link: https://app.districtbuilder.org/projects/7ff3c91c-5329-4f19-972e-573f8c51b9bb
 five38_link: https://projects.fivethirtyeight.com/redistricting-2022-maps/oregon/plan_a/
 simplegeojson_file: /files/OR-2021-09/Congress_-_Plan_A_Public.geojson
 
