@@ -9,6 +9,7 @@ districtbuilder_link: https://app.districtbuilder.org/projects/925ac001-371a-440
 davesredist_link: https://davesredistricting.org/maps#viewmap::79c6cb02-9f92-45c1-a025-7ec2589a8824
 allabout_link: https://redistricting.lls.edu/state/illinois/?cycle=2020&level=State%20Upper&startdate=2021-06-04
 blockassignment_file: /files/IL-2021-05-state-senate/0523.zip.zip
+simplegeojson_file: /files/IL-20201-05-state-senate/preview.geojson
 
 layout: plan-page
 ---
