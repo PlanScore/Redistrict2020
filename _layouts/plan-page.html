@@ -31,15 +31,20 @@
                     return 'District ' + (index + 1);
                 }
                 */
+                
+                // http://soliton.vm.bytemark.co.uk/pub/cpt-city/cb/qual/tn/Dark2_08.png.index.html
+                var colors = [
+                    '#269D78', '#D75F1C', '#7572B1', '#E5308A',
+                    '#68A42C', '#E5AA27', '#A57528', '#666666',
+                ];
 
                 var geojson = L.geoJSON(data, {
-                    /*
                     style: function(feature)
                     {
-                        var district = plan.districts[data.features.indexOf(feature)];
-                        return { weight: 2, fillOpacity: .5, color: which_district_color(district, plan) };
+                        var district = data.features.indexOf(feature),
+                            color = colors[district % colors.length];
+                        return { fillOpacity: .35, color: color };
                     }
-                    */
                     })/*.bindPopup(district_popup_content)*/;
 
 
