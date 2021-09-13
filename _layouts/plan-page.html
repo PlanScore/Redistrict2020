@@ -17,20 +17,11 @@
 
             function on_loaded_geojson(data)
             {
-                /*
                 function district_popup_content(layer)
                 {
-                    var index = data.features.indexOf(layer.feature),
-                        incumbency = {'O': 'Open Seat', 'D': 'Democratic Incumbent', 'R': 'Republican Incumbent'},
-                        has_incumbency = plan_has_incumbency(plan);
-
-                    if(has_incumbency) {
-                        return 'District ' + (index + 1) + '<br>' + incumbency[plan.incumbents[index]];
-                    }
-
+                    var index = data.features.indexOf(layer.feature);
                     return 'District ' + (index + 1);
                 }
-                */
                 
                 // http://soliton.vm.bytemark.co.uk/pub/cpt-city/cb/qual/tn/Dark2_08.png.index.html
                 var colors = [
@@ -45,7 +36,7 @@
                             color = colors[district % colors.length];
                         return { fillOpacity: .35, color: color };
                     }
-                    })/*.bindPopup(district_popup_content)*/;
+                    }).bindPopup(district_popup_content);
 
 
                 /*
