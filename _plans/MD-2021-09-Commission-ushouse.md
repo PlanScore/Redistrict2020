@@ -9,7 +9,7 @@ districtbuilder_link: https://app.districtbuilder.org/projects/58155d5b-46b0-4a5
 davesredist_link: https://davesredistricting.org/join/2eae8da8-0892-4b01-a278-c0f8c932eb88
 blockassignment_file: /files/MD-2021-09/2021-0909-block-equivalency-file-for-draft-cong-plan.zip
 shapefile_file:
-five38_link:
+five38_link: https://projects.fivethirtyeight.com/redistricting-2022-maps/maryland/draft_plan_1/
 simplegeojson_file: /files/MD-2021-09/2021-0909-draft-cong-plan.geojson
 
 layout: plan-page
