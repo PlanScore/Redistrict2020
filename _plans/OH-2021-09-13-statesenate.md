@@ -10,7 +10,7 @@ districtbuilder_link: https://app.districtbuilder.org/projects/404c5799-217e-49d
 five38_link:
 blockassignment_file: /files/OH-2021-09/SenateAmended.zip
 shapefile_file:
-simplegeojson_file:
+simplegeojson_file: /files/OH-2021-09/SenateAmended.geojson
 
 layout: plan-page
 ---

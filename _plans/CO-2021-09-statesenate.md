@@ -9,7 +9,7 @@ districtbuilder_link: https://app.districtbuilder.org/projects/f1a5abcd-4dc7-487
 davesredist_link: https://davesredistricting.org/join/7296674d-6f10-40a9-9118-57f910de909d
 shapefile_file:
 blockassignment_file: /files/CO-2021-09/First_Senate_Staff_Plan_Final.zip
-simplegeojson_file:
+simplegeojson_file: /files/CO-2021-09/First_Senate_Staff_Plan_Final.geojson
 
 layout: plan-page
 ---
