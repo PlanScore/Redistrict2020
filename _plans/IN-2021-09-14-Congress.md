@@ -9,7 +9,7 @@ districtbuilder_link: https://app.districtbuilder.org/projects/d0082cd6-33da-425
 davesredist_link: https://davesredistricting.org/join/99b5e31e-5234-4b5d-b8ce-1633876290c0
 shapefile_file:
 blockassignment_file: /files/IN-2021-09/Proposed_Indiana_Congressional_Districts.zip
-simplegeojson_file:
+simplegeojson_file: /files/IN-2021-09/Proposed_Indiana_Congressional_Districts.geojson
 
 layout: plan-page
 ---
