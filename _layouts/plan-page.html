@@ -133,7 +133,7 @@
         {{ page.title }}
     </h1>
     <div class="row">
-    <div class="col">
+    <div class="col-lg">
     <dl>
         <dt>State</dt>
         <dd>{{ page.state }}</dd>
@@ -186,7 +186,7 @@
     </dl>
     {{ content }}
     </div>
-    <div class="col">
+    <div class="col-lg">
         {% for file in site.static_files %}
             {% if file.path == page.simplegeojson_file %}
                 <div id="mapid" style="height: 600px"></div>
