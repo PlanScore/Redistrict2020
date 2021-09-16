@@ -10,7 +10,7 @@ davesredist_link: https://davesredistricting.org/join/95d9f389-2d32-4ea7-b877-6e
 five38_link:
 shapefile_file:
 blockassignment_file: /files/IA-2021-09/Iowa_LSA_First_Proposed_Congressional.zip
-simplegeojson_file:
+simplegeojson_file: /files/IA-2021-09/Iowa_LSA_First_Proposed_Congressional.geojson
 
 layout: plan-page
 ---
