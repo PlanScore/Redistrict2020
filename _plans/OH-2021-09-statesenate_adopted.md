@@ -10,7 +10,7 @@ districtbuilder_link: https://app.districtbuilder.org/projects/a11058e5-4051-483
 five38_link:
 blockassignment_file: /files/OH-2021-09/September15_SDs_BAF.zip
 shapefile_file:
-simplegeojson_file:
+simplegeojson_file: /files/OH-2021-09/September15_SDs_BAF.geojson
 
 layout: plan-page
 ---
