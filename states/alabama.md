@@ -19,7 +19,7 @@ Available Redistricting Plans
 {% assign state_plans = site.plans | where: "state", "Alabama" | where: "body", "US House" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}
-- [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
+- [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date: "%B" }} {{ plan.date | date: "%d" | plus:'0' }}, {{ plan.date | date: "%Y" }}
 {% else %}
 None at this time
 {% endfor %}
@@ -29,7 +29,7 @@ None at this time
 {% assign state_plans = site.plans | where: "state", "Alabama" | where: "body", "State Senate" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}
-- [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
+- [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date: "%B" }} {{ plan.date | date: "%d" | plus:'0' }}, {{ plan.date | date: "%Y" }}
 {% else %}
 None at this time
 {% endfor %}
@@ -40,7 +40,7 @@ None at this time
 {% assign state_plans = site.plans | where: "state", "Alabama" | where: "body", "State House" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}
-- [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
+- [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date: "%B" }} {{ plan.date | date: "%d" | plus:'0' }}, {{ plan.date | date: "%Y" }}
 {% else %}
 None at this time
 {% endfor %}
