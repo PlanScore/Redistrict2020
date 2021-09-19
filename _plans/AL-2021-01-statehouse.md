@@ -11,7 +11,7 @@ davesredist_link: https://davesredistricting.org/join/e3bebe8b-e646-4dab-b19c-48
 five38_link:
 blockassignment_file: /files/AL-2021-01/AL_SLDL_bef.zip
 shapefile_file:
-simplegeojson_file:
+simplegeojson_file: /files/AL-2021-01/AL_SLDL_bef.geojson
 
 layout: plan-page
 ---
