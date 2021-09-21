@@ -10,7 +10,7 @@ districtbuilder_link: https://app.districtbuilder.org/projects/47bc1277-6bca-42e
 blockassignment_file: /files/VA-2021-09/A3_Statewide_HOD_blkassign.zip
 five38_link:
 shapefile_file:
-simplegeojson_file:
+simplegeojson_file: /files/VA-2021-09/A3_Statewide_HOD_blkassign.geojson
 
 layout: plan-page
 ---
