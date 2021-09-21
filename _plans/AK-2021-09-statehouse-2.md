@@ -11,7 +11,7 @@ davesredist_link: https://davesredistricting.org/join/8219fadf-e0f4-4a15-9b53-d6
 five38_link:
 blockassignment_file: /files/AK-2021-09/Board_Composite_v_2.zip
 shapefile_file:
-simplegeojson_file:
+simplegeojson_file: /files/AK-2021-09/Board_Composite_v_2.geojson
 
 layout: plan-page
 ---
