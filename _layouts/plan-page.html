@@ -10,7 +10,7 @@
     <title>Redistrict 2020 Plan: {{ page.title }}</title>
     <script>
 
-        function load_plan_map(url, div)
+        function load_plan_map(url, div, state)
         {
             var request = new XMLHttpRequest();
             request.open('GET', url, true);
@@ -93,7 +93,11 @@
 
                 // Add a GeoJSON layer and fit it into view
                 geojson.addTo(map);
-                map.fitBounds(geojson.getBounds());
+                if(state == 'Alaska') {
+                    map.fitBounds(L.latLngBounds(L.latLng(54.6, -128.8), L.latLng(71.2, -174.1)));
+                } else {
+                    map.fitBounds(geojson.getBounds());
+                }
 
                 // Add Toner label tiles for base map
                 L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner-labels/{z}/{x}/{y}{r}.png', {
@@ -191,7 +195,7 @@
             {% if file.path == page.simplegeojson_file %}
                 <div id="mapid" style="height: 600px"></div>
                 <script>
-                    load_plan_map('{{ file.path }}', document.getElementById('mapid'))
+                    load_plan_map({{ file.path | jsonify }}, document.getElementById('mapid'), {{ page.state | jsonify }})
                 </script>
             {% endif %}
         {% endfor %}
