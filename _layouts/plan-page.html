@@ -169,36 +169,28 @@
             <dt>FiveThirtyEight Summary</dt>
             <dd><a href="{{ page.five38_link }}">{{ page.five38_link | replace: "/", "/" }}</a></dd>
         {% endif %}
-        {% for file in site.static_files %}
-            {% if file.path == page.shapefile_file %}
-                <dt>Shapefile</dt>
-                <dd><a href="{{ file.path }}">{{ file.name }}</a></dd>
-            {% endif %}
-        {% endfor %}
-        {% for file in site.static_files %}
-            {% if file.path == page.blockassignment_file %}
-                <dt>Block Assignment File</dt>
-                <dd><a href="{{ file.path }}">{{ file.name }}</a></dd>
-            {% endif %}
-        {% endfor %}
-        {% for file in site.static_files %}
-            {% if file.path == page.simplegeojson_file %}
-                <dt>Simplified GeoJSON File</dt>
-                <dd><a href="{{ file.path }}">{{ file.name }}</a></dd>
-            {% endif %}
-        {% endfor %}
+        {% if page.shapefile_file %}
+            <dt>Shapefile</dt>
+            <dd><a href="{{ page.shapefile_file }}">{{ page.shapefile_file | split: "/" | slice: -1 }}</a></dd>
+        {% endif %}
+        {% if page.blockassignment_file %}
+            <dt>Block Assignment File</dt>
+            <dd><a href="{{ page.blockassignment_file }}">{{ page.blockassignment_file | split: "/" | slice: -1 }}</a></dd>
+        {% endif %}
+        {% if page.simplegeojson_file %}
+            <dt>Simplified GeoJSON File</dt>
+            <dd><a href="{{ page.simplegeojson_file }}">{{ page.simplegeojson_file | split: "/" | slice: -1 }}</a></dd>
+        {% endif %}
     </dl>
     {{ content }}
     </div>
     <div class="col-lg">
-        {% for file in site.static_files %}
-            {% if file.path == page.simplegeojson_file %}
-                <div id="mapid" style="height: 600px"></div>
-                <script>
-                    load_plan_map({{ file.path | jsonify }}, document.getElementById('mapid'), {{ page.state | jsonify }})
-                </script>
-            {% endif %}
-        {% endfor %}
+        {% if page.simplegeojson_file %}
+            <div id="mapid" style="height: 600px"></div>
+            <script>
+                load_plan_map({{ page.simplegeojson_file | jsonify }}, document.getElementById('mapid'), {{ page.state | jsonify }})
+            </script>
+        {% endif %}
     </div>
     </div>
     <hr>
