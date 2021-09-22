@@ -11,7 +11,7 @@ davesredist_link: https://davesredistricting.org/join/4385805b-ccf4-4a10-8a3a-39
 five38_link:
 shapefile_file:
 blockassignment_file: /files/WY-2021-01/WY_SLDL_bef.csv.zip
-simplegeojson_file:
+simplegeojson_file: /files/WY-2021-01/WY_SLDL_bef.geojson
 
 layout: plan-page
 ---
