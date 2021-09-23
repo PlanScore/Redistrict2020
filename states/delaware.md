@@ -5,34 +5,34 @@ layout: basic-page
 
 <br>
 
-<u>Useful State Links</u>
+Useful State Links
 ---
 
 - [All About Redistricting -- Delaware](https://redistricting.lls.edu/state/delaware/?cycle=2020&level=Congress&startdate=)
 - [538 -- Delaware](https://projects.fivethirtyeight.com/redistricting-2022-maps/delaware/)
 
-<u>Available Redistricting Plans</u>
+Available Redistricting Plans
 ---
 
 <br>
 
-State Senate
----
+### State Senate
+
 {% assign state_plans = site.plans | where: "state", "Delaware" | where: "body", "State Senate" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}
-- [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
+- *[{{ plan.title }}]({{ plan.url }})* · {{ plan.date | date: "%B" }} {{ plan.date | date: "%d" | plus:'0' }}, {{ plan.date | date: "%Y" }}
 {% else %}
 None at this time
 {% endfor %}
 
 
-State House
----
+### State House
+
 {% assign state_plans = site.plans | where: "state", "Delaware" | where: "body", "State House" | sort: "date" | reverse %}
 
 {% for plan in state_plans %}
-- [{{ plan.title }}]({{ plan.url }}), {{ plan.date | date_to_string }}
+- *[{{ plan.title }}]({{ plan.url }})* · {{ plan.date | date: "%B" }} {{ plan.date | date: "%d" | plus:'0' }}, {{ plan.date | date: "%Y" }}
 {% else %}
 None at this time
 {% endfor %}

@@ -1,0 +1,18 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Redistrict 2020</title>
+{% assign recent_plans = site.plans | sort: "date" | reverse %}
+{% for plan in recent_plans limit: 20 %}
+    <entry>
+        <title>{{ plan.state }} {{ plan.body }}: {{ plan.title }}</title>
+        <published>{{ plan.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</published>
+        <updated>{{ plan.date | date: "%Y-%m-%dT%H:%M:%SZ" }}</updated>
+        <category>{{ plan.state }}; {{ plan.body }}</category>
+        <link href="{{ plan.url }}" />
+        <id>tag:redistrict2020.org,2020:{{ plan.url }}</id>
+        <summary type="html"></summary>
+    </entry>
+{% endfor %}
+</feed>

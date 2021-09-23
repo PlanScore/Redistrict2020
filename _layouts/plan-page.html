@@ -10,37 +10,33 @@
     <title>Redistrict 2020 Plan: {{ page.title }}</title>
     <script>
 
-        function load_plan_map(url, div)
+        function load_plan_map(url, div, state)
         {
             var request = new XMLHttpRequest();
             request.open('GET', url, true);
 
             function on_loaded_geojson(data)
             {
-                /*
                 function district_popup_content(layer)
                 {
-                    var index = data.features.indexOf(layer.feature),
-                        incumbency = {'O': 'Open Seat', 'D': 'Democratic Incumbent', 'R': 'Republican Incumbent'},
-                        has_incumbency = plan_has_incumbency(plan);
-
-                    if(has_incumbency) {
-                        return 'District ' + (index + 1) + '<br>' + incumbency[plan.incumbents[index]];
-                    }
-
+                    var index = data.features.indexOf(layer.feature);
                     return 'District ' + (index + 1);
                 }
-                */
+                
+                // http://soliton.vm.bytemark.co.uk/pub/cpt-city/cb/qual/tn/Dark2_08.png.index.html
+                var colors = [
+                    '#269D78', '#D75F1C', '#7572B1', '#E5308A',
+                    '#68A42C', '#E5AA27', '#A57528', '#666666',
+                ];
 
                 var geojson = L.geoJSON(data, {
-                    /*
                     style: function(feature)
                     {
-                        var district = plan.districts[data.features.indexOf(feature)];
-                        return { weight: 2, fillOpacity: .5, color: which_district_color(district, plan) };
+                        var district = data.features.indexOf(feature),
+                            color = colors[district % colors.length];
+                        return { fillOpacity: .35, color: color };
                     }
-                    */
-                    })/*.bindPopup(district_popup_content)*/;
+                    }).bindPopup(district_popup_content);
 
 
                 /*
@@ -97,7 +93,11 @@
 
                 // Add a GeoJSON layer and fit it into view
                 geojson.addTo(map);
-                map.fitBounds(geojson.getBounds());
+                if(state == 'Alaska') {
+                    map.fitBounds(L.latLngBounds(L.latLng(54.6, -128.8), L.latLng(71.2, -174.1)));
+                } else {
+                    map.fitBounds(geojson.getBounds());
+                }
 
                 // Add Toner label tiles for base map
                 L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner-labels/{z}/{x}/{y}{r}.png', {
@@ -129,63 +129,76 @@
 </head>
 <body>
     <div class="container">
-    <h1>Redistrict 2020 Plan: {{ page.title }}</h1>
+    <h1>
+        <a href="/">Redistrict 2020</a>
+        ▸
+        <a href="/states/{{ page.state | slugify }}.html">{{ page.state }}</a>
+        ▸
+        {{ page.title }}
+    </h1>
     <div class="row">
-    <div class="col">
+    <div class="col-lg">
     <dl>
         <dt>State</dt>
         <dd>{{ page.state }}</dd>
         <dt>Legislative Body</dt>
         <dd>{{ page.body }}</dd>
         <dt>Date</dt>
-        <dd>{{ page.date | date_to_string }}</dd>
+        <dd>
+            {{ page.date | date: "%B" }}
+            {{ page.date | date: "%d" | plus:'0' }}, 
+            {{ page.date | date: "%Y" }}
+        </dd>
         <dt>Authoritative Link</dt>
-        <dd><a href="{{ page.authoritative_link }}">{{ page.authoritative_link }}</a></dd>
-        <dt>PlanScore Predictive Model</dt>
-        <dd><a href="{{ page.planscore_link }}">{{ page.planscore_link }}</a></dd>
-        <dt>Preceding Enacted Plan</dt>
-        <dd><a href="{{ page.predecessor_link }}">{{ page.predecessor_link }}</a></dd>
-        {% if page.davesredist_link %}
-            <dt>Dave’s Redistricting App View</dt>
-            <dd><a href="{{ page.davesredist_link }}">{{ page.davesredist_link }}</a></dd>
-        {% endif %}
+        <dd><a href="{{ page.authoritative_link }}">{{ page.authoritative_link | replace: "/", "/" }}</a></dd>
         {% if page.allabout_link %}
             <dt>All About Redistricting Link</dt>
-            <dd><a href="{{ page.allabout_link }}">{{ page.allabout_link }}</a></dd>
+            <dd><a href="{{ page.allabout_link }}">{{ page.allabout_link | replace: "/", "/" }}</a></dd>
         {% endif %}
-        {% for file in site.static_files %}
-            {% if file.path == page.shapefile_file %}
-                <dt>Shapefile</dt>
-                <dd><a href="{{ file.path }}">{{ file.name }}</a></dd>
-            {% endif %}
-        {% endfor %}
-        {% for file in site.static_files %}
-            {% if file.path == page.blockassignment_file %}
-                <dt>Block Assignment File</dt>
-                <dd><a href="{{ file.path }}">{{ file.name }}</a></dd>
-            {% endif %}
-        {% endfor %}
-        {% for file in site.static_files %}
-            {% if file.path == page.simplegeojson_file %}
-                <dt>Simplified GeoJSON File</dt>
-                <dd><a href="{{ file.path }}">{{ file.name }}</a></dd>
-            {% endif %}
-        {% endfor %}
+        <dt>PlanScore Predictive Model</dt>
+        <dd><a href="{{ page.planscore_link }}">{{ page.planscore_link | replace: "/", "/" }}</a></dd>
+        {% if page.districtbuilder_link %}
+            <dt>DistrictBuilder View</dt>
+            <dd><a href="{{ page.districtbuilder_link }}">{{ page.districtbuilder_link | replace: "/", "/" }}</a></dd>
+        {% endif %}
+        {% if page.davesredist_link %}
+            <dt>Dave’s Redistricting App View</dt>
+            <dd><a href="{{ page.davesredist_link }}">{{ page.davesredist_link | replace: "/", "/" }}</a></dd>
+        {% endif %}
+        {% if page.five38_link %}
+            <dt>FiveThirtyEight Summary</dt>
+            <dd><a href="{{ page.five38_link }}">{{ page.five38_link | replace: "/", "/" }}</a></dd>
+        {% endif %}
+        {% if page.shapefile_file %}
+            <dt>Shapefile</dt>
+            <dd><a href="{{ page.shapefile_file }}">{{ page.shapefile_file | split: "/" | slice: -1 }}</a></dd>
+        {% endif %}
+        {% if page.blockassignment_file %}
+            <dt>Block Assignment File</dt>
+            <dd><a href="{{ page.blockassignment_file }}">{{ page.blockassignment_file | split: "/" | slice: -1 }}</a></dd>
+        {% endif %}
+        {% if page.simplegeojson_file %}
+            <dt>Simplified GeoJSON File</dt>
+            <dd><a href="{{ page.simplegeojson_file }}">{{ page.simplegeojson_file | split: "/" | slice: -1 }}</a></dd>
+        {% endif %}
     </dl>
-    <hr>
     {{ content }}
     </div>
-    <div class="col">
-        {% for file in site.static_files %}
-            {% if file.path == page.simplegeojson_file %}
-                <div id="mapid" style="height: 600px"></div>
-                <script>
-                    load_plan_map('{{ file.path }}', document.getElementById('mapid'))
-                </script>
-            {% endif %}
-        {% endfor %}
+    <div class="col-lg">
+        {% if page.simplegeojson_file %}
+            <div id="mapid" style="height: 600px"></div>
+            <script>
+                load_plan_map({{ page.simplegeojson_file | jsonify }}, document.getElementById('mapid'), {{ page.state | jsonify }})
+            </script>
+        {% endif %}
     </div>
     </div>
+    <hr>
+    <p>
+        <a href="https://github.com/PlanScore/Redistrict2020">Contribute to Redistrict 2020 on 🐙😺Github</a>
+        |
+        <a href="/feed.xml">Subscribe to updates with 📢RSS</a>
+    </p>
     </div>
 </body>
 </html>
