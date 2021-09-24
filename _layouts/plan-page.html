@@ -10,7 +10,7 @@
     <title>Redistrict 2020 Plan: {{ page.title }}</title>
     <script>
 
-        function load_plan_map(url, div)
+        function load_plan_map(url, div, state)
         {
             var request = new XMLHttpRequest();
             request.open('GET', url, true);
@@ -93,7 +93,11 @@
 
                 // Add a GeoJSON layer and fit it into view
                 geojson.addTo(map);
-                map.fitBounds(geojson.getBounds());
+                if(state == 'Alaska') {
+                    map.fitBounds(L.latLngBounds(L.latLng(54.6, -128.8), L.latLng(71.2, -174.1)));
+                } else {
+                    map.fitBounds(geojson.getBounds());
+                }
 
                 // Add Toner label tiles for base map
                 L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/toner-labels/{z}/{x}/{y}{r}.png', {
@@ -165,36 +169,28 @@
             <dt>FiveThirtyEight Summary</dt>
             <dd><a href="{{ page.five38_link }}">{{ page.five38_link | replace: "/", "/" }}</a></dd>
         {% endif %}
-        {% for file in site.static_files %}
-            {% if file.path == page.shapefile_file %}
-                <dt>Shapefile</dt>
-                <dd><a href="{{ file.path }}">{{ file.name }}</a></dd>
-            {% endif %}
-        {% endfor %}
-        {% for file in site.static_files %}
-            {% if file.path == page.blockassignment_file %}
-                <dt>Block Assignment File</dt>
-                <dd><a href="{{ file.path }}">{{ file.name }}</a></dd>
-            {% endif %}
-        {% endfor %}
-        {% for file in site.static_files %}
-            {% if file.path == page.simplegeojson_file %}
-                <dt>Simplified GeoJSON File</dt>
-                <dd><a href="{{ file.path }}">{{ file.name }}</a></dd>
-            {% endif %}
-        {% endfor %}
+        {% if page.shapefile_file %}
+            <dt>Shapefile</dt>
+            <dd><a href="{{ page.shapefile_file }}">{{ page.shapefile_file | split: "/" | slice: -1 }}</a></dd>
+        {% endif %}
+        {% if page.blockassignment_file %}
+            <dt>Block Assignment File</dt>
+            <dd><a href="{{ page.blockassignment_file }}">{{ page.blockassignment_file | split: "/" | slice: -1 }}</a></dd>
+        {% endif %}
+        {% if page.simplegeojson_file %}
+            <dt>Simplified GeoJSON File</dt>
+            <dd><a href="{{ page.simplegeojson_file }}">{{ page.simplegeojson_file | split: "/" | slice: -1 }}</a></dd>
+        {% endif %}
     </dl>
     {{ content }}
     </div>
     <div class="col-lg">
-        {% for file in site.static_files %}
-            {% if file.path == page.simplegeojson_file %}
-                <div id="mapid" style="height: 600px"></div>
-                <script>
-                    load_plan_map('{{ file.path }}', document.getElementById('mapid'))
-                </script>
-            {% endif %}
-        {% endfor %}
+        {% if page.simplegeojson_file %}
+            <div id="mapid" style="height: 600px"></div>
+            <script>
+                load_plan_map({{ page.simplegeojson_file | jsonify }}, document.getElementById('mapid'), {{ page.state | jsonify }})
+            </script>
+        {% endif %}
     </div>
     </div>
     <hr>

@@ -58,7 +58,7 @@ States
 
 
 <div class="row">
-<div class="col">
+<div class="col-md">
     <h2>Recently Added Plans</h2>
     {% assign recent_plans = site.plans | sort: "date" | reverse %}
     <ul>
@@ -70,7 +70,7 @@ States
     {% endfor %}
     </ul>
 </div>
-<div class="col">
+<div class="col-md">
     <h2>U.S. House Plans</h2>
     {% assign ushouse_plans = site.plans | where: "body", "US House" | sort: "date" | reverse %}
     <ul>
