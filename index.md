@@ -56,7 +56,6 @@ States
 [Wisconsin](states/wisconsin.html) ·
 [Wyoming](states/wyoming.html)
 
-
 <div class="row">
 <div class="col-md">
     <h2>Recently Added Plans</h2>
