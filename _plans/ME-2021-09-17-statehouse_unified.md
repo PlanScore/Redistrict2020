@@ -1,5 +1,5 @@
 ---
-title: "Maine State House: Democratic Caucus Proposal"
+title: "Maine State House: Unified Proposal"
 state: Maine
 body: State House
 date: 2021-09-21
