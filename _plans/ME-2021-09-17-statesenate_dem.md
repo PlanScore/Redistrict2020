@@ -13,7 +13,7 @@ predecessor_link:
 
 blockassignment_file: /files/ME-2021-09/SenateDemocraticCaucus.zip
 shapefile_file:
-simplegeojson_file:
+simplegeojson_file: /files/ME-2021-09/SenateDemocraticCaucus.geojson
 
 layout: plan-page
 ---
