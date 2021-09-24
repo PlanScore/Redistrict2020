@@ -13,7 +13,7 @@ predecessor_link:
 
 blockassignment_file: /files/ME-2021-09-16/US_Congressional_Districts_Unified_Proposal.zip
 shapefile_file:
-simplegeojson_file:
+simplegeojson_file: /files/ME-2021-09-16/US_Congressional_Districts_Unified_Proposal.geojson
 
 layout: plan-page
 ---
