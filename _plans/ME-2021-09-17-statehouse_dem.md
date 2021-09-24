@@ -13,7 +13,7 @@ predecessor_link:
 
 blockassignment_file: /files/ME-2021-09/Maine_House_2021_FINAL.zip
 shapefile_file:
-simplegeojson_file:
+simplegeojson_file: /files/ME-2021-09/Maine_House_2021_FINAL.geojson
 
 layout: plan-page
 ---
