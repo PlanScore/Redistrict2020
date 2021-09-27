@@ -10,7 +10,7 @@ districtbuilder_link: https://app.districtbuilder.org/projects/96de2077-bd24-422
 five38_link: https://projects.fivethirtyeight.com/redistricting-2022-maps/texas/draft_plan_1/
 blockassignment_file: /files/TX-2021-09/planc2101_blk.zip
 shapefile_file:
-simplegeojson_file:
+simplegeojson_file: /files/TX-2021-09/planc2101_blk.geojson
 
 layout: plan-page
 ---
