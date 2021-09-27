@@ -56,13 +56,12 @@ States
 [Wisconsin](states/wisconsin.html) ·
 [Wyoming](states/wyoming.html)
 
-
 <div class="row">
 <div class="col-md">
-    <h2>Recently Added Plans</h2>
-    {% assign recent_plans = site.plans | sort: "date" | reverse %}
+    <h2>U.S. House Plans</h2>
+    {% assign ushouse_plans = site.plans | where: "body", "US House" | sort: "date" | reverse %}
     <ul>
-    {% for plan in recent_plans limit: 20 %}
+    {% for plan in ushouse_plans limit: 20 %}
     <li>
         <a href="{{ plan.url }}">{{ plan.state }} {{ plan.body }} ▸ <i>{{ plan.title }}</i></a>
         ·&nbsp;{{ plan.date | date: "%b" }}&nbsp;{{ plan.date | date: "%d" | plus:'0' }},&nbsp;{{ plan.date | date: "%Y" }}
@@ -71,10 +70,10 @@ States
     </ul>
 </div>
 <div class="col-md">
-    <h2>U.S. House Plans</h2>
-    {% assign ushouse_plans = site.plans | where: "body", "US House" | sort: "date" | reverse %}
+    <h2>State Legislative Plans</h2>
+    {% assign state_plans = site.plans | where_exp: "plan", "plan.body != 'US House'" | sort: "date" | reverse %}
     <ul>
-    {% for plan in ushouse_plans limit: 20 %}
+    {% for plan in state_plans limit: 20 %}
     <li>
         <a href="{{ plan.url }}">{{ plan.state }} {{ plan.body }} ▸ <i>{{ plan.title }}</i></a>
         ·&nbsp;{{ plan.date | date: "%b" }}&nbsp;{{ plan.date | date: "%d" | plus:'0' }},&nbsp;{{ plan.date | date: "%Y" }}
