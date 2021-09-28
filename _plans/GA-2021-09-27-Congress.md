@@ -11,7 +11,7 @@ davesredist_link: https://davesredistricting.org/join/4ae4a785-29e3-4c02-8377-54
 five38_link:
 shapefile_file:
 blockassignment_file: /files/GA-2021-09/Senate_0927721_GA_2022_Congressional_Proposal.zip
-simplegeojson_file:
+simplegeojson_file: /files/GA-2021-09/Senate_0927721_GA_2022_Congressional_Proposal.geojson
 
 layout: plan-page
 ---
