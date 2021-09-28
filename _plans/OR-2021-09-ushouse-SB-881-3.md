@@ -10,7 +10,7 @@ davesredist_link: https://davesredistricting.org/join/4dde9fbb-ac3c-433a-ac35-29
 blockassignment_file: /files/OR-2021-09/SB_881-3.zip
 shapefile_file:
 five38_link:
-simplegeojson_file:
+simplegeojson_file: /files/OR-2021-09/SB_881-3.geojson
 
 layout: plan-page
 ---
