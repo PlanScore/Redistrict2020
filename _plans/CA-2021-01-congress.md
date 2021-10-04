@@ -9,7 +9,7 @@ planscore_link: https://planscore.campaignlegal.org/plan.html?20211004T183133.47
 districtbuilder_link: https://app.districtbuilder.org/projects/78f4fead-988b-4ad0-b901-fc55dc5804a0
 davesredist_link: https://davesredistricting.org/join/c8af5b9c-88ac-42ae-ac84-2c5f9cf6f6ac
 five38_link:
-blockassignment_file: /files/CO-2021-01/CO_CD_bef.zip
+blockassignment_file: /files/CO-2021-01/CA_CD_bef.zip
 shapefile_file:
 simplegeojson_file:
 
