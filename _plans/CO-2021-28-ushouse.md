@@ -9,7 +9,7 @@ planscore_link: https://planscore.campaignlegal.org/plan.html?20210929T160430.29
 districtbuilder_link: https://app.districtbuilder.org/projects/3312efb8-794f-485c-ae78-e41787cbcc5f
 davesredist_link: https://davesredistricting.org/join/3a028ec4-0bf5-465a-9156-0cb7d376359e
 five38_link: https://projects.fivethirtyeight.com/redistricting-2022-maps/colorado/preliminary/
-blockassignment_file: /files/CO-2021-09/Third_Congressional_District_Staff_Plan_Final.zi
+blockassignment_file: /files/CO-2021-09/Third_Congressional_District_Staff_Plan_Final.zip
 shapefile_file:
 simplegeojson_file: /files/CO-2021-06-ushouse/preview.geojson
 
