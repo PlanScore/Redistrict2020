@@ -1,6 +1,7 @@
 ---
 title: Crosswalks
 layout: basic-page
+baseurl: /
 ---
 
 Census Block ⇄ Voting Precinct Crosswalks
@@ -10,10 +11,10 @@ Census Block ⇄ Voting Precinct Crosswalks
 * Census blocks from [2020 Census Redistricting Data (P.L. 94-171)](https://www2.census.gov/geo/tiger/TIGER2020PL/STATE/)
 
 [Alaska](files/crosswalks/crosswalk-AK.zip) ·
-[Alabama](files/crosswalks/crosswalk-AL.zip) ·
-[Arkansas](files/crosswalks/crosswalk-AR.zip) ·
-[Arizona](files/crosswalks/crosswalk-AZ.zip) ·
-[California](files/crosswalks/crosswalk-CA.zip) ·
+[Alabama](./files/crosswalks/crosswalk-AL.zip) ·
+[Arkansas](/files/crosswalks/crosswalk-AR.zip) ·
+[Arizona]({{ 'files/crosswalks/crosswalk-AZ.zip' | relative_url }}) ·
+[California]({{ 'files/crosswalks/crosswalk-CA.zip' | absolute_url }}) ·
 [Colorado](files/crosswalks/crosswalk-CO.zip) ·
 [Connecticut](files/crosswalks/crosswalk-CT.zip) ·
 [Delaware](files/crosswalks/crosswalk-DE.zip) ·
