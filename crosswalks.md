@@ -1,7 +1,6 @@
 ---
 title: Crosswalks
 layout: basic-page
-baseurl: /
 ---
 
 Census Block ⇄ Voting Precinct Crosswalks
