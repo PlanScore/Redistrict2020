@@ -14,7 +14,7 @@ Census Block ⇄ Voting Precinct Crosswalks
 [Arkansas](/files/crosswalks/crosswalk-AR.zip) ·
 [Arizona]({{ 'files/crosswalks/crosswalk-AZ.zip' | relative_url }}) ·
 [California]({{ 'files/crosswalks/crosswalk-CA.zip' | absolute_url }}) ·
-[Colorado](files/crosswalks/crosswalk-CO.zip) ·
+[Colorado]({{ 'files/crosswalks/crosswalk-CO.zip' }}) ·
 [Connecticut](files/crosswalks/crosswalk-CT.zip) ·
 [Delaware](files/crosswalks/crosswalk-DE.zip) ·
 [Georgia](files/crosswalks/crosswalk-GA.zip) ·
