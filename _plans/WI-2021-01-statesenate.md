@@ -10,7 +10,7 @@ districtbuilder_link: https://app.districtbuilder.org/projects/283bb94f-81a4-438
 davesredist_link: https://davesredistricting.org/join/1e03cd57-ae08-4803-93b0-aba831103ed3
 five38_link:
 shapefile_file:
-blockassignment_file: /files/WI-2021-01/WY_SLDU_bef.csv.zip
+blockassignment_file: /files/WI-2021-01/WI_SLDU_bef.csv.zip
 simplegeojson_file:
 
 layout: plan-page
