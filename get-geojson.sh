@@ -5,5 +5,6 @@ if [ $# -ne 2 ]; then
     echo "Usage: $0 <plan ID> <file name>"
     exit 1
 else
+    mkdir -p `dirname ${FILE}`
     curl --compressed -L "https://planscore.s3.amazonaws.com/uploads/${PLAN}/geometry.json" -o "${FILE}"
 fi
