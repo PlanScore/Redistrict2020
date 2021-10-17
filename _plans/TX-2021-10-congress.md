@@ -1,6 +1,6 @@
 ---
 state: Texas
-title: "Texas Congress PLAN 2186 (Adopted by State House)"
+title: "Texas Congress PLAN C2186 (Adopted by State House)"
 body: US House
 date: 2021-10-17
 authoritative_link: https://data.capitol.texas.gov/dataset/planc2101
