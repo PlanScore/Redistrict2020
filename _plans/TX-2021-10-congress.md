@@ -10,7 +10,7 @@ districtbuilder_link: https://app.districtbuilder.org/projects/c63d1171-d8dc-473
 five38_link:
 blockassignment_file: /files/TX-2021-09/planc2186_blk.zip
 shapefile_file:
-simplegeojson_file:
+simplegeojson_file: /files/TX-2021-09/planc2186_blk.geojson
 
 layout: plan-page
 ---
