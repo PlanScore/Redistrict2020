@@ -12,7 +12,7 @@ davesredist_link: https://davesredistricting.org/join/8a5911ec-58b4-4e7f-8516-2e
 five38_link:
 blockassignment_file: /files/IL-2021-10/IL_10152021_Congressional_Draft.zip
 shapefile_file:
-simplegeojson_file:
+simplegeojson_file: /files/IL-2021-10/IL_10152021_Congressional_Draft.geojson
 
 layout: plan-page
 ---

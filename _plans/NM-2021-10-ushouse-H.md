@@ -12,7 +12,7 @@ davesredist_link: https://davesredistricting.org/join/f9bf6091-a208-4a83-9401-61
 blockassignment_file: /files/NM-2021-10/Congressional_Concept_H.zip
 shapefile_file:
 five38_link:
-simplegeojson_file:
+simplegeojson_file: /files/NM-2021-10/Congressional_Concept_H.geojson
 
 layout: plan-page
 ---

@@ -11,7 +11,7 @@ davesredist_link: https://davesredistricting.org/join/5cf48981-d45a-4d88-a2ff-56
 five38_link:
 shapefile_file:
 blockassignment_file: /files/AZ-2021-10/AZ_CD_Test_Map_Version_2_0.zip
-simplegeojson_file:
+simplegeojson_file: /files/AZ-2021-10/AZ_CD_Test_Map_Version_2_0.geojson
 
 layout: plan-page
 ---
