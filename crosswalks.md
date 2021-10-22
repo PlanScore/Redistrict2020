@@ -16,7 +16,9 @@ Census Block ⇄ Voting Precinct Crosswalks
 [California]({{ 'files/crosswalks/crosswalk-CA.zip' }}) ·
 [Colorado]({{ 'files/crosswalks/crosswalk-CO.zip' }}) ·
 [Connecticut]({{ 'files/crosswalks/crosswalk-CT.zip' }}) ·
+[District of Columbia]({{ 'files/crosswalks/crosswalk-DC.zip' }}) ·
 [Delaware]({{ 'files/crosswalks/crosswalk-DE.zip' }}) ·
+[Florida]({{ 'files/crosswalks/crosswalk-FL.zip' }}) ·
 [Georgia]({{ 'files/crosswalks/crosswalk-GA.zip' }}) ·
 [Hawaii]({{ 'files/crosswalks/crosswalk-HI.zip' }}) ·
 [Iowa]({{ 'files/crosswalks/crosswalk-IA.zip' }}) ·
@@ -24,6 +26,7 @@ Census Block ⇄ Voting Precinct Crosswalks
 [Illinois]({{ 'files/crosswalks/crosswalk-IL.zip' }}) ·
 [Indiana]({{ 'files/crosswalks/crosswalk-IN.zip' }}) ·
 [Kansas]({{ 'files/crosswalks/crosswalk-KS.zip' }}) ·
+[Louisiana]({{ 'files/crosswalks/crosswalk-LA.zip' }}) ·
 [Massachusetts]({{ 'files/crosswalks/crosswalk-MA.zip' }}) ·
 [Maryland]({{ 'files/crosswalks/crosswalk-MD.zip' }}) ·
 [Maine]({{ 'files/crosswalks/crosswalk-ME.zip' }}) ·
