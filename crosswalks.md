@@ -38,6 +38,7 @@ Census Block ⇄ Voting Precinct Crosswalks
 [North&nbsp;Dakota]({{ 'files/crosswalks/crosswalk-ND.zip' }}) ·
 [Nebraska]({{ 'files/crosswalks/crosswalk-NE.zip' }}) ·
 [New&nbsp;Hampshire]({{ 'files/crosswalks/crosswalk-NH.zip' }}) ·
+[New&nbsp;York]({{ 'files/crosswalks/crosswalk-NY.zip' }}) ·
 [Nevada]({{ 'files/crosswalks/crosswalk-NV.zip' }}) ·
 [Ohio]({{ 'files/crosswalks/crosswalk-OH.zip' }}) ·
 [Oklahoma]({{ 'files/crosswalks/crosswalk-OK.zip' }}) ·
