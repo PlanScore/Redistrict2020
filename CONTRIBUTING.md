@@ -23,10 +23,9 @@ layout: plan-page
 ---
 ```
 
-How To Create GeoJSON Previews
----
+## How To Create GeoJSON Previews
 
-Use the included `get-geojson.sh` script on the command-line to retrieve 
+Use the included `get-geojson.sh` script on the command-line to retrieve
 simplified visual previews from PlanScore. Example for a recent Texas plan:
 
     ./get-geojson.sh 20210919T173322.375597647Z files/TX-2021-09/PLANS2101.geojson
