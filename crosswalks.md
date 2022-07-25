@@ -49,6 +49,7 @@ Census Block ⇄ Voting Precinct Crosswalks
 [Pennsylvania]({{ 'files/crosswalks/crosswalk-PA.zip' }}) ·
 [Rhode&nbsp;Island]({{ 'files/crosswalks/crosswalk-RI.zip' }}) ·
 [South&nbsp;Carolina]({{ 'files/crosswalks/crosswalk-SC.zip' }}) ·
+[South&nbsp;Dakota]({{ 'files/crosswalks/crosswalk-SD.zip' }}) ·
 [Tennessee]({{ 'files/crosswalks/crosswalk-TN.zip' }}) ·
 [Texas]({{ 'files/crosswalks/crosswalk-TX.zip' }}) ·
 [Utah]({{ 'files/crosswalks/crosswalk-UT.zip' }}) ·
